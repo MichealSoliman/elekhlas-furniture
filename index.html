@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta http-equiv="content-language" content="ar">
+
     <!-- SEO Meta Tags -->
-    <title>الإخلاص لنقل الأثاث - أفضل شركة نقل عفش بالرياض | خدمات احترافية</title>
-    <meta name="description" content="شركة الإخلاص لنقل الأثاث بالرياض - خدمات نقل عفش احترافية، فك وتركيب، تغليف. عمالة مدربة وأسعار تنافسية. اتصل الآن: 0551314872">
+    <title>شركة الإخلاص لنقل العفش بالرياض | نقل أثاث سريع وآمن</title>
+    <meta name="description" content="شركة الإخلاص لنقل العفش بالرياض تقدم نقل أثاث احترافي داخل جميع أحياء الرياض، فك وتركيب وتغليف كامل بأسعار مناسبة. اتصل الآن 0551314872">
     <meta name="keywords" content="نقل عفش بالرياض, شركة نقل أثاث بالرياض, نقل عفش رخيص, نقل أثاث داخل الرياض, أفضل شركة نقل عفش, نقل عفش شمال الرياض, نقل عفش شرق الرياض">
+    <link rel="canonical" href="https://elekhlas-furniture.com/">
     <meta name="robots" content="index, follow">
     <meta name="author" content="شركة الإخلاص لنقل الأثاث">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="الإخلاص لنقل الأثاث - أفضل شركة نقل عفش بالرياض">
-    <meta property="og:description" content="خدمات نقل أثاث احترافية في الرياض بأفضل الأسعار">
+    <meta property="og:description" content="نقل أثاث احترافي داخل الرياض مع فك وتركيب وتغليف كامل">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ar_SA">
-    
-    <!-- Favicon -->
+    <meta property="og:image" content="https://elekhlas-furniture.com/images/moving.jpg">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚚</text></svg>">
-    
+    <!-- Preconnect Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     
@@ -30,170 +34,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    
-    <!-- Custom Styles -->
-    <style>
-        * {
-            font-family: 'Tajawal', sans-serif;
+    <link rel="stylesheet" href="asstes/css/style.css">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "MovingCompany",
+        "name": "شركة الإخلاص لنقل العفش",
+        "url": "https://elekhlas-furniture.com/",
+        "telephone": "0551314872",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "الرياض",
+            "addressCountry": "SA"
         }
-        
-        :root {
-            --primary-color: #eb1a32;
-            --primary-dark: #c51628;
-            --primary-light: #ff3b52;
         }
-        
-        .bg-primary {
-            background-color: var(--primary-color);
-        }
-        
-        .text-primary {
-            color: var(--primary-color);
-        }
-        
-        .hover-primary:hover {
-            background-color: var(--primary-dark);
-        }
-        
-        .border-primary {
-            border-color: var(--primary-color);
-        }
-        
-        /* Smooth Scroll */
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        /* Hero Background */
-        .hero-gradient {
-            background: linear-gradient(135deg, #eb1a32 0%, #c51628 50%, #a01220 100%);
-        }
-        
-        /* Animations */
-        .fade-in {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
-        }
-        
-        .fade-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-        .scale-on-hover {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .scale-on-hover:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(235, 26, 50, 0.2);
-        }
-        
-        /* Pulse Animation */
-        @keyframes pulse {
-            0%, 100% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-        }
-        
-        .pulse-animation {
-            animation: pulse 2s infinite;
-        }
-        
-        /* Floating Animation */
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-        
-        .float-animation {
-            animation: float 3s ease-in-out infinite;
-        }
-        
-        /* Card Hover Effect */
-        .service-card {
-            transition: all 0.4s ease;
-            border: 2px solid transparent;
-        }
-        
-        .service-card:hover {
-            border-color: var(--primary-color);
-            transform: translateY(-5px);
-        }
-        
-        /* Image Overlay */
-        .image-overlay {
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .image-overlay::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.7) 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .image-overlay:hover::after {
-            opacity: 1;
-        }
-        
-        /* Gradient Text */
-        .gradient-text {
-            background: linear-gradient(135deg, #eb1a32 0%, #ff3b52 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        /* WhatsApp Button Float */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 30px;
-            left: 30px;
-            z-index: 1000;
-            animation: pulse 2s infinite;
-        }
-        
-        /* Mobile Menu */
-        .mobile-menu {
-            transform: translateX(100%);
-            transition: transform 0.3s ease;
-        }
-        
-        .mobile-menu.active {
-            transform: translateX(0);
-        }
-        
-        /* Section Spacing */
-        .section-padding {
-            padding: 80px 0;
-        }
-        
-        @media (max-width: 768px) {
-            .section-padding {
-                padding: 50px 0;
-            }
-        }
-        
-        /* Star Rating */
-        .star-rating {
-            color: #fbbf24;
-        }
-    </style>
+</script>
+
+   
     
     <!-- Tailwind Config -->
     <script>
@@ -283,13 +140,15 @@
         <div class="container mx-auto px-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="fade-in">
-                    <h2 class="text-5xl md:text-6xl font-black mb-6 leading-tight">
-                        نقل عفش احترافي<br/>
-                        <span class="text-yellow-300">آمن وسريع</span>
-                    </h2>
+                    <h1 class="text-5xl md:text-6xl font-black mb-6 leading-tight">
+                    شركة الإخلاص لنقل العفش بالرياض<br/>
+                    <span class="text-yellow-300">آمن وسريع</span>
+                  </h1>
+
                     <p class="text-xl mb-8 text-gray-100 leading-relaxed">
-                        شركة الإخلاص لنقل الأثاث - خبرة سنوات في خدمات نقل العفش بالرياض. نوفر لك نقل آمن وسريع مع ضمان سلامة أثاثك بأفضل الأسعار
+                     شركة الإخلاص لنقل الأثاث في الرياض تقدم خبرة سنوات في خدمات نقل العفش. نوفر لك نقل عفش احترافي وآمن وسريع مع ضمان سلامة أثاثك وبأفضل الأسعار.
                     </p>
+
                     
                     <!-- CTA Buttons -->
                     <div class="flex flex-wrap gap-4 mb-8">
