@@ -1,1037 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
-    <title>المدونة - مقالات شاملة عن نقل العفش والأثاث بالرياض | شركة الإخلاص</title>
-    <meta name="description" content="مدونة متخصصة في نقل العفش والأثاث بالرياض - دليل شامل لأفضل النصائح والإرشادات من خبراء شركة الإخلاص - تعرف على كيفية نقل عفشك بأمان وبتكلفة مناسبة">
-    <meta name="keywords" content="نقل عفش بالرياض, نقل أثاث بالرياض, مدونة نقل العفش, نصائح نقل الأثاث, أسعار نقل العفش, فك وتركيب الأثاث, شركة نقل عفش, شركة نقل أثاث">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="author" content="شركة الإخلاص لنقل الأثاث">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.alkhlas-furniture-moving.com/blog">
-    
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="المدونة - مقالات شاملة عن نقل العفش والأثاث بالرياض | شركة الإخلاص">
-    <meta property="og:description" content="أكبر مكتبة مقالات عن نقل العفش بالرياض - نصائح وإرشادات من خبراء النقل">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ar_SA">
-    <meta property="og:site_name" content="شركة الإخلاص لنقل الأثاث">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    
-    <style>
-        * {
-            font-family: 'Tajawal', sans-serif;
-        }
-        
-        :root {
-            --primary-color: #eb1a32;
-            --secondary-color: #1a56db;
-        }
-        
-        .bg-primary { background-color: var(--primary-color); }
-        .text-primary { color: var(--primary-color); }
-        .bg-secondary { background-color: var(--secondary-color); }
-        .text-secondary { color: var(--secondary-color); }
-        
-        .hover-primary:hover { background-color: #c51628; }
-        .hover-secondary:hover { background-color: #1e429f; }
-        
-        html { scroll-behavior: smooth; }
-        
-        .category-badge {
-            display: inline-block;
-            background-color: #f3f4f6;
-            color: #4b5563;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            transition: all 0.3s;
-        }
-        
-        .category-badge:hover {
-            background-color: var(--primary-color);
-            color: white;
-        }
-        
-        .article-card {
-            background: white;
-            border-radius: 1rem;
-            overflow: hidden;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .article-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-        }
-        
-        .article-image {
-            height: 200px;
-            width: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-        
-        .article-card:hover .article-image {
-            transform: scale(1.05);
-        }
-        
-        .read-time {
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.75rem;
-            position: absolute;
-            bottom: 1rem;
-            left: 1rem;
-        }
-        
-        .featured-badge {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: var(--primary-color);
-            color: white;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-size: 0.75rem;
-            font-weight: bold;
-        }
-        
-        .pagination-btn {
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-            border: 1px solid #e5e7eb;
-            color: #6b7280;
-            transition: all 0.3s;
-        }
-        
-        .pagination-btn:hover {
-            background-color: var(--primary-color);
-            color: white;
-            border-color: var(--primary-color);
-        }
-        
-        .pagination-btn.active {
-            background-color: var(--primary-color);
-            color: white;
-            border-color: var(--primary-color);
-        }
-        
-        .search-box {
-            background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 100%);
-            border: 2px solid #fed7d7;
-        }
-        
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-        
-        .tag {
-            background: #f3f4f6;
-            padding: 0.375rem 0.75rem;
-            border-radius: 0.375rem;
-            font-size: 0.875rem;
-            color: #4b5563;
-            transition: all 0.3s;
-            text-decoration: none;
-            display: inline-block;
-        }
-        
-        .tag:hover {
-            background: var(--primary-color);
-            color: white;
-        }
-        
-        .sidebar-widget {
-            background: white;
-            border-radius: 1rem;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .fade-in {
-            animation: fadeIn 0.5s ease-out;
-        }
-        
-        .breadcrumb {
-            background-color: #f9fafb;
-            padding: 0.75rem 1rem;
-            border-radius: 0.5rem;
-            font-size: 0.9rem;
-            color: #6b7280;
-        }
-        
-        .breadcrumb a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-        
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body class="bg-gray-50">
-
-    <!-- Header -->
-    <header class="fixed top-0 w-full bg-white shadow-lg z-50">
-        <nav class="container mx-auto px-4 py-4">
-            <div class="flex justify-between items-center">
-                <a href="../index.html" class="flex items-center space-x-3 space-x-reverse">
-                    <div class="text-4xl">🚚</div>
-                    <div>
-                        <h1 class="text-2xl font-bold text-primary">الإخلاص</h1>
-                        <p class="text-sm text-gray-600">  لنقل عفش بالرياض</p>
-                    </div>
-                </a>
-                
-                <div class="flex items-center space-x-6 space-x-reverse">
-                    <!-- <a href="tel:0551314872" class="bg-primary hover-primary text-white px-4 py-2 rounded-full font-bold transition flex items-center">
-                        <i class="fas fa-phone ml-2"></i>
-                        <span> اتصل الان</span>
-                    </a> -->
-                    <a href="../index.html" class="text-gray-700 hover:text-primary transition flex items-center">
-                        <i class="fas fa-home ml-2"></i>
-                        <span>الرئيسية</span>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Breadcrumb -->
-    <section class="pt-24 pb-6">
-        <div class="container mx-auto px-4">
-            <div class="breadcrumb">
-                <span><a href="../index.html">الرئيسية</a> / <span class="text-gray-900">المدونة</span></span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Hero -->
-    <section class="py-12 bg-gradient-to-br from-red-50 to-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl font-black mb-6 text-gray-900 leading-tight">
-                    مدونة <span class="text-primary">الإخلاص</span> لنقل العفش
-                </h1>
-                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                    أكبر مكتبة مقالات متخصصة في نقل العفش والأثاث بالرياض - نصائح وإرشادات وخبرات من أفضل خبراء النقل
-                </p>
-                
-                <!-- Search Box -->
-                <div class="max-w-2xl mx-auto">
-                    <div class="search-box rounded-2xl p-2 mb-8">
-                        <div class="flex items-center">
-                            <input type="text" 
-                                   placeholder="ابحث عن مقالة..." 
-                                   class="flex-1 p-3 bg-transparent border-none outline-none text-gray-700">
-                            <button class="bg-primary hover-primary text-white p-3 rounded-xl">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Categories -->
-                <div class="flex flex-wrap justify-center gap-3 mb-8">
-                    <a href="#all" class="category-badge bg-primary text-white">جميع المقالات</a>
-                    <a href="#tips" class="category-badge">نصائح وإرشادات</a>
-                    <a href="#prices" class="category-badge">أسعار وتكاليف</a>
-                    <a href="#how-to" class="category-badge">كيفية النقل</a>
-                    <a href="#packing" class="category-badge">التغليف والحماية</a>
-                    <a href="#faq" class="category-badge">أسئلة شائعة</a>
-                    <a href="#companies" class="category-badge">شركات النقل</a>
-                    <a href="#storage" class="category-badge">التخزين</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Blog Content -->
-    <section class="py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid lg:grid-cols-3 gap-8">
-                <!-- Main Content -->
-                <div class="lg:col-span-2">
-                    <!-- Featured Articles -->
-                    <div class="mb-12">
-                        <h2 class="text-3xl font-black mb-6 text-gray-900">مقالات مميزة</h2>
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <!-- Featured Article 1 -->
-                            <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=600&h=300&fit=crop" 
-                                         alt="نقل عفش آمن وسريع" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="featured-badge">مميز</span>
-                                    <span class="read-time">8 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">نصائح وإرشادات</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">15 ديسمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="./al-Ikhlas-furniture-moving/index.html" class="hover:text-primary transition">من هي شركة الاخلاص لنقل الاثاث بالرياض</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        دليل شامل يقدم لك أهم النصائح العملية لنقل عفشك بأمان تام وبسرعة فائقة، من خبراء شركة الإخلاص
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="./al-Ikhlas-furniture-moving/index.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 2,548
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                            
-                            <!-- Featured Article 2 -->
-                            <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1609803384069-19f3b2c56e97?w=600&h=300&fit=crop" 
-                                         alt="اختيار شركة نقل عفش" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="featured-badge">مميز</span>
-                                    <span class="read-time">6 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">شركات النقل</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">10 ديسمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-2.html" class="hover:text-primary transition">كيف تختار أفضل شركة نقل عفش بالرياض</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        دليل عملي يساعدك في اختيار شركة نقل عفش موثوقة في الرياض تجنبك مشاكل النقل والتلفيات
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-2.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,892
-                                        </span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-
-                    <!-- All Articles -->
-                    <div class="mb-12">
-                        <h2 class="text-3xl font-black mb-6 text-gray-900">جميع المقالات</h2>
-                        
-                        <!-- Article Grid -->
-                        <div class="grid md:grid-cols-2 gap-6" id="articles-container">
-                            <!-- Article 1 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=400&h=200&fit=crop" 
-                                         alt="تكلفة نقل العفش" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">5 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">أسعار وتكاليف</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">8 ديسمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-3.html" class="hover:text-primary transition">دليل أسعار نقل العفش بالرياض 2024 - تكاليف شاملة</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        أحدث أسعار نقل العفش في الرياض مع تفصيل التكاليف لكل خدمة - تعرف على كيفية توفير المال
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-3.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 3,124
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 2 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400&h=200&fit=crop" 
-                                         alt="فك وتركيب الأثاث" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">7 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">كيفية النقل</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">5 ديسمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-4.html" class="hover:text-primary transition">فك وتركيب الأثاث: دليل خطوة بخطوة مع الصور</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        تعلم كيفية فك وتركيب الأثاث بنفسك مع هذا الدليل المصور الشامل، أو اعرف متى تحتاج لمتخصص
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-4.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 2,417
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 3 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=400&h=200&fit=crop" 
-                                         alt="تغليف العفش" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">6 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">التغليف والحماية</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">3 ديسمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-5.html" class="hover:text-primary transition">أفضل طرق تغليف العفش للحماية من التلف أثناء النقل</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        تعرف على المواد والأساليب المثلى لتغليف أثاثك لحمايته من الخدوش والتلف خلال عملية النقل
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-5.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,956
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 4 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=400&h=200&fit=crop" 
-                                         alt="نقل المكاتب" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">8 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">نصائح وإرشادات</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">30 نوفمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-6.html" class="hover:text-primary transition">نقل المكاتب والشركات: كيف تنقل مكتبك بأقل توقف للعمل؟</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        استراتيجيات ونصائح لنقل مكاتب الشركات بكفاءة مع تقليل وقت التوقف والخسائر المالية
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-6.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,732
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 5 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&h=200&fit=crop" 
-                                         alt="تخزين العفش" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">5 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">التخزين</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">28 نوفمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-7.html" class="hover:text-primary transition">أهم 10 نصائح لتخزين العفش لفترات طويلة بأمان</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        كيف تحافظ على أثاثك أثناء التخزين الطويل؟ تعرف على أسرار التخزين الآمن من الخبراء
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-7.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,489
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 6 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&h=200&fit=crop" 
-                                         alt="نقل العفش في الصيف" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">4 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">نصائح موسمية</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">25 نوفمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-8.html" class="hover:text-primary transition">نقل العفش في الصيف: تحذيرات و نصائح خاصة</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        تعامل مع تحديات نقل الأثاث في الأجواء الحارة وتعرف على الاحتياطات اللازمة لحماية عفشك
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-8.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,321
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 7 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1600585154340-963ed7476d06?w=400&h=200&fit=crop" 
-                                         alt="نقل الفلل" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">9 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">كيفية النقل</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">22 نوفمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-9.html" class="hover:text-primary transition">خطوات نقل الفلل الكبيرة بالرياض: دليل عملي شامل</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        التحديات والحلول لنقل الفلل ذات المساحات الكبيرة - تعرف على الاستراتيجيات المثلى
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-9.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 1,654
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                            
-                            <!-- Article 8 -->
-                            <!-- <article class="article-card fade-in">
-                                <div class="relative overflow-hidden">
-                                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=200&fit=crop" 
-                                         alt="نقل الأجهزة الكهربائية" 
-                                         class="article-image"
-                                         loading="lazy">
-                                    <span class="read-time">6 دقائق</span>
-                                </div>
-                                <div class="p-6 flex-1 flex flex-col">
-                                    <div class="flex items-center mb-3">
-                                        <span class="text-sm text-primary font-bold">التغليف والحماية</span>
-                                        <span class="mx-2 text-gray-300">•</span>
-                                        <span class="text-sm text-gray-500">20 نوفمبر 2024</span>
-                                    </div>
-                                    <h3 class="text-xl font-bold mb-3">
-                                        <a href="article-10.html" class="hover:text-primary transition">نقل الأجهزة الكهربائية بأمان: الثلاجات، الغسالات، التلفزيونات</a>
-                                    </h3>
-                                    <p class="text-gray-600 mb-4 flex-1">
-                                        تعلم كيفية نقل الأجهزة الكهربائية المنزلية بسلامة تامة وحمايتها من الأعطال والتلف
-                                    </p>
-                                    <div class="flex items-center justify-between pt-4 border-t">
-                                        <a href="article-10.html" class="text-primary font-bold hover:text-red-700 transition">
-                                            اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                        </a>
-                                        <span class="text-gray-500 text-sm">
-                                            <i class="far fa-eye ml-1"></i> 2,013
-                                        </span>
-                                    </div>
-                                </div>
-                            </article> -->
-                        </div>
-                        
-                        <!-- Load More Button -->
-                        <!-- <div class="text-center mt-8">
-                            <button id="load-more" class="bg-primary hover-primary text-white px-8 py-3 rounded-full font-bold transition">
-                                <i class="fas fa-sync-alt ml-2"></i>
-                                تحميل المزيد من المقالات
-                            </button>
-                        </div> -->
-                    </div>
-                </div>
-                
-                <!-- Sidebar -->
-                <div class="lg:col-span-1">
-                    <!-- About Widget -->
-                    <div class="sidebar-widget">
-                        <h3 class="text-xl font-bold mb-4 text-gray-900">عن المدونة</h3>
-                        <p class="text-gray-600 mb-4">
-                            مدونة متخصصة تقدم لك كل ما تحتاج معرفته عن نقل العفش والأثاث في الرياض. نصائح عملية، إرشادات شاملة، وأسرار من خبراء شركة الإخلاص.
-                        </p>
-                        <div class="bg-gray-50 p-4 rounded-lg">
-                            <p class="text-sm text-gray-600">
-                                <i class="fas fa-info-circle text-primary ml-2"></i>
-                                جميع المقالات مبنية على خبرة عملية لأكثر من 15 عاماً في نقل العفش بالرياض
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <!-- Popular Articles -->
-                    <div class="sidebar-widget">
-                        <h3 class="text-xl font-bold mb-4 text-gray-900">الأكثر قراءة</h3>
-                        <div class="space-y-4">
-                            <a href="article-1.html" class="flex items-center group">
-                                <div class="w-16 h-16 flex-shrink-0 rounded-lg overflow-hidden ml-3">
-                                    <img src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=100&h=100&fit=crop" 
-                                         alt="نقل عفش آمن" 
-                                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                                         loading="lazy">
-                                </div>
-                                <div>
-                                    <h4 class="font-bold group-hover:text-primary transition text-sm">10 نصائح لنقل عفش آمن</h4>
-                                    <p class="text-xs text-gray-500">2,548 مشاهدة</p>
-                                </div>
-                            </a>
-                            
-                            <a href="article-3.html" class="flex items-center group">
-                                <div class="w-16 h-16 flex-shrink-0 rounded-lg overflow-hidden ml-3">
-                                    <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=100&h=100&fit=crop" 
-                                         alt="أسعار نقل العفش" 
-                                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                                         loading="lazy">
-                                </div>
-                                <div>
-                                    <h4 class="font-bold group-hover:text-primary transition text-sm">دليل أسعار نقل العفش 2024</h4>
-                                    <p class="text-xs text-gray-500">3,124 مشاهدة</p>
-                                </div>
-                            </a>
-                            
-                            <a href="article-5.html" class="flex items-center group">
-                                <div class="w-16 h-16 flex-shrink-0 rounded-lg overflow-hidden ml-3">
-                                    <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=100&h=100&fit=crop" 
-                                         alt="تغليف العفش" 
-                                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                                         loading="lazy">
-                                </div>
-                                <div>
-                                    <h4 class="font-bold group-hover:text-primary transition text-sm">أفضل طرق تغليف العفش</h4>
-                                    <p class="text-xs text-gray-500">1,956 مشاهدة</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Categories Widget -->
-                    <div class="sidebar-widget">
-                        <h3 class="text-xl font-bold mb-4 text-gray-900">التصنيفات</h3>
-                        <div class="space-y-2">
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">نصائح وإرشادات</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">12</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">أسعار وتكاليف</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">8</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">كيفية النقل</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">15</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">التغليف والحماية</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">7</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">أسئلة شائعة</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">21</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">شركات النقل</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">5</span>
-                            </a>
-                            <a href="#" class="flex justify-between items-center p-2 hover:bg-gray-50 rounded-lg transition group">
-                                <span class="group-hover:text-primary">التخزين</span>
-                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">4</span>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <!-- Tags Cloud -->
-                    <div class="sidebar-widget">
-                        <h3 class="text-xl font-bold mb-4 text-gray-900">الكلمات الدلالية</h3>
-                        <div class="tag-cloud">
-                            <a href="#" class="tag">نقل عفش بالرياض</a>
-                            <a href="#" class="tag">شركة نقل عفش</a>
-                            <a href="#" class="tag">أسعار نقل العفش</a>
-                            <a href="#" class="tag">فك وتركيب</a>
-                            <a href="#" class="tag">تغليف العفش</a>
-                            <a href="#" class="tag">نقل المكاتب</a>
-                            <a href="#" class="tag">نقل الفلل</a>
-                            <a href="#" class="tag">تخزين العفش</a>
-                            <a href="#" class="tag">نقل آمن</a>
-                            <a href="#" class="tag">شركة نقل أثاث</a>
-                            <a href="#" class="tag">نقل الأجهزة</a>
-                            <a href="#" class="tag">نصائح النقل</a>
-                        </div>
-                    </div>
-                    
-                    <!-- CTA Widget -->
-                    <div class="sidebar-widget bg-gradient-to-r from-primary to-red-600 text-white">
-                        <h3 class="text-xl font-bold mb-4">بحاجة لمساعدة؟</h3>
-                        <p class="mb-4 text-gray-100">
-                            لديك سؤال عن نقل عفشك؟ تواصل مع خبرائنا الآن
-                        </p>
-                        <a href="tel:0551314872" 
-                           class="bg-white text-primary hover:bg-gray-100 w-full py-3 rounded-lg font-bold transition flex items-center justify-center">
-                            <i class="fas fa-phone ml-2"></i>
-                            <span>اتصل الآن: 0551314872</span>
-                        </a>
-                    </div>
-                    
-                    <!-- Newsletter -->
-                    <div class="sidebar-widget">
-                        <h3 class="text-xl font-bold mb-4 text-gray-900">النشرة البريدية</h3>
-                        <p class="text-gray-600 mb-4 text-sm">
-                            اشترك في نشرتنا البريدية لتصلك أحدث المقالات والنصائح عن نقل العفش
-                        </p>
-                        <div class="space-y-3">
-                            <input type="email" 
-                                   placeholder="بريدك الإلكتروني" 
-                                   class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-primary">
-                            <button class="bg-primary hover-primary text-white w-full py-3 rounded-lg font-bold transition">
-                                <i class="fas fa-envelope ml-2"></i>
-                                اشترك الآن
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <!-- Footer -->
-    <footer id="contact" class="bg-gray-900 text-white pt-16 pb-8">
-        <div class="container mx-auto px-4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-12 mb-12">
-                <!-- About -->
-                <div>
-                    <div class="flex items-center space-x-3 space-x-reverse mb-6">
-                        <div class="text-4xl">🚚</div>
-                        <div>
-                            <h3 class="text-2xl font-bold text-primary">الإخلاص</h3>
-                            <p class="text-sm text-gray-400">لنقل الأثاث</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-400 leading-relaxed mb-6">
-                        شركة سعودية متخصصة في خدمات نقل الأثاث والعفش بأعلى معايير الجودة والاحترافية
-                    </p>
-                    <div class="flex space-x-4 space-x-reverse">
-                        <a href="#" class="w-10 h-10 bg-primary hover-primary rounded-full flex items-center justify-center transition">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-primary hover-primary rounded-full flex items-center justify-center transition">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-primary hover-primary rounded-full flex items-center justify-center transition">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://wa.me/966557844548" class="w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center transition">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Quick Links -->
-                <div>
-                    <h4 class="text-xl font-bold mb-6">روابط سريعة</h4>
-                    <ul class="space-y-3">
-                        <li><a href="#home" class="text-gray-400 hover:text-primary transition">الرئيسية</a></li>
-                        <li><a href="#about" class="text-gray-400 hover:text-primary transition">من نحن</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-primary transition">خدماتنا</a></li>
-                        <li><a href="#gallery" class="text-gray-400 hover:text-primary transition">أعمالنا</a></li>
-                        <li><a href="#blog" class="text-gray-400 hover:text-primary transition">المقالات</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-primary transition">اتصل بنا</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Services -->
-                <div>
-                    <h4 class="text-xl font-bold mb-6">خدماتنا</h4>
-                    <ul class="space-y-3">
-                        <li class="text-gray-400">نقل عفش داخل الرياض</li>
-                        <li class="text-gray-400">نقل عفش بين المدن</li>
-                        <li class="text-gray-400">فك وتركيب الأثاث</li>
-                        <li class="text-gray-400">تغليف الأثاث</li>
-                        <li class="text-gray-400">نقل مكاتب وشركات</li>
-                        <li class="text-gray-400">تخزين الأثاث</li>
-                    </ul>
-                </div>
-                
-                <!-- Contact Info -->
-                <div>
-                    <h4 class="text-xl font-bold mb-6">تواصل معنا</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-start space-x-3 space-x-reverse">
-                            <i class="fas fa-phone-alt text-primary text-xl mt-1"></i>
-                            <div>
-                                <p class="text-gray-400 text-sm mb-1">اتصل بنا</p>
-                                <a href="tel:0551314872" class="text-white font-bold hover:text-primary transition">0551314872</a>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3 space-x-reverse">
-                            <i class="fab fa-whatsapp text-green-500 text-xl mt-1"></i>
-                            <div>
-                                <p class="text-gray-400 text-sm mb-1">واتساب</p>
-                                <a href="https://wa.me/966557844548" class="text-white font-bold hover:text-primary transition">0557844548</a>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3 space-x-reverse">
-                            <i class="fas fa-map-marker-alt text-primary text-xl mt-1"></i>
-                            <div>
-                                <p class="text-gray-400 text-sm mb-1">الموقع</p>
-                                <p class="text-white">الرياض - المملكة العربية السعودية</p>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3 space-x-reverse">
-                            <i class="fas fa-clock text-primary text-xl mt-1"></i>
-                            <div>
-                                <p class="text-gray-400 text-sm mb-1">ساعات العمل</p>
-                                <p class="text-white">24/7 - طوال الأسبوع</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Copyright -->
-            <div class="border-t border-gray-800 pt-8">
-                <div class="text-center text-gray-400">
-                    <p>© 2024 شركة الإخلاص لنقل الأثاث - جميع الحقوق محفوظة</p>
-                    <p class="text-sm mt-2">تصميم وتطوير بواسطة فريق الإخلاص</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/966557844548" 
-       class="fixed bottom-8 left-8 bg-green-500 hover:bg-green-600 w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl shadow-2xl z-50" 
-       aria-label="تواصل معنا على واتساب"
-       style="animation: pulse 2s infinite;">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- Phone Float -->
-    <a href="tel:0551314872" 
-       class="fixed bottom-8 left-32 bg-primary hover-primary w-16 h-16 rounded-full flex items-center justify-center text-white text-3xl shadow-2xl z-50"
-       aria-label="اتصل بنا الآن">
-        <i class="fas fa-phone"></i>
-    </a>
-
-    <script>
-        // Load More Articles Functionality
-        document.getElementById('load-more').addEventListener('click', function() {
-            const container = document.getElementById('articles-container');
-            
-            // Simulate loading more articles
-            const newArticles = [
-                {
-                    id: 11,
-                    image: "https://images.unsplash.com/photo-1600585154340-963ed7476d06?w=400&h=200&fit=crop",
-                    category: "نصائح موسمية",
-                    date: "18 نوفمبر 2024",
-                    title: "نقل العفش في الشتاء: احتياطات مهمة للطرق المبتلة",
-                    description: "كيف تتعامل مع نقل الأثاث في الأجواء الممطرة والطرق الزلقة؟ نصائح عملية",
-                    views: "1,234"
-                },
-                {
-                    id: 12,
-                    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=400&h=200&fit=crop",
-                    category: "كيفية النقل",
-                    date: "15 نوفمبر 2024",
-                    title: "كيف تنقل النباتات المنزلية دون تلف؟ دليل عملي",
-                    description: "أساليب حماية النباتات المنزلية أثناء النقل والحفاظ على حياتها",
-                    views: "987"
-                },
-                {
-                    id: 13,
-                    image: "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=400&h=200&fit=crop",
-                    category: "أسعار وتكاليف",
-                    date: "12 نوفمبر 2024",
-                    title: "تكاليف نقل العفش بين المدن السعودية: الرياض، جدة، الدمام",
-                    description: "مقارنة شاملة لتكاليف نقل الأثاث بين المدن الرئيسية في المملكة",
-                    views: "2,145"
-                },
-                {
-                    id: 14,
-                    image: "https://images.unsplash.com/photo-1615873968403-89e068629265?w=400&h=200&fit=crop",
-                    category: "التغليف والحماية",
-                    date: "10 نوفمبر 2024",
-                    title: "كيف تحمي الأرضيات والجدران أثناء نقل العفش؟",
-                    description: "طرق وقاية الأرضيات والجدران من الخدوش والتلف أثناء عملية النقل",
-                    views: "1,567"
-                }
-            ];
-            
-            // Add new articles with animation
-            newArticles.forEach((article, index) => {
-                setTimeout(() => {
-                    const articleElement = document.createElement('article');
-                    articleElement.className = 'article-card fade-in';
-                    articleElement.innerHTML = `
-                        <div class="relative overflow-hidden">
-                            <img src="${article.image}" 
-                                 alt="${article.title}" 
-                                 class="article-image"
-                                 loading="lazy">
-                            <span class="read-time">${Math.floor(Math.random() * 5) + 4} دقائق</span>
-                        </div>
-                        <div class="p-6 flex-1 flex flex-col">
-                            <div class="flex items-center mb-3">
-                                <span class="text-sm text-primary font-bold">${article.category}</span>
-                                <span class="mx-2 text-gray-300">•</span>
-                                <span class="text-sm text-gray-500">${article.date}</span>
-                            </div>
-                            <h3 class="text-xl font-bold mb-3">
-                                <a href="article-${article.id}.html" class="hover:text-primary transition">${article.title}</a>
-                            </h3>
-                            <p class="text-gray-600 mb-4 flex-1">${article.description}</p>
-                            <div class="flex items-center justify-between pt-4 border-t">
-                                <a href="article-${article.id}.html" class="text-primary font-bold hover:text-red-700 transition">
-                                    اقرأ المزيد <i class="fas fa-arrow-left mr-2"></i>
-                                </a>
-                                <span class="text-gray-500 text-sm">
-                                    <i class="far fa-eye ml-1"></i> ${article.views}
-                                </span>
-                            </div>
-                        </div>
-                    `;
-                    container.appendChild(articleElement);
-                }, index * 200);
-            });
-            
-            // Show message after loading
-            setTimeout(() => {
-                this.innerHTML = '<i class="fas fa-check ml-2"></i> تم تحميل جميع المقالات';
-                this.disabled = true;
-                this.classList.remove('bg-primary', 'hover-primary');
-                this.classList.add('bg-gray-400', 'cursor-not-allowed');
-            }, 1000);
-        });
-
-        // Category Filtering
-        const categoryButtons = document.querySelectorAll('.category-badge');
-        categoryButtons.forEach(button => {
-            button.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Remove active class from all buttons
-                categoryButtons.forEach(btn => {
-                    btn.classList.remove('bg-primary', 'text-white');
-                    btn.classList.add('bg-gray-100', 'text-gray-700');
-                });
-                
-                // Add active class to clicked button
-                this.classList.remove('bg-gray-100', 'text-gray-700');
-                this.classList.add('bg-primary', 'text-white');
-                
-                // Show loading animation
-                const container = document.getElementById('articles-container');
-                container.style.opacity = '0.5';
-                
-                // Simulate filtering
-                setTimeout(() => {
-                    container.style.opacity = '1';
-                }, 300);
-            });
-        });
-
-        // Search Functionality
-        const searchInput = document.querySelector('input[type="text"]');
-        const searchButton = document.querySelector('button[type="button"]');
-        
-        searchButton.addEventListener('click', function() {
-            const searchTerm = searchInput.value.toLowerCase();
-            if (searchTerm) {
-                // Implement search logic here
-                alert(`سيتم البحث عن: ${searchTerm}`);
-            }
-        });
-        
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                searchButton.click();
-            }
-        });
-    </script>
-
-</body>
-</html>
